@@ -1,0 +1,32 @@
+body div {
+    font-family: fantasy;
+background-color: black;
+}
+h1 {
+text-align: center; 
+}
+.row {
+    display:flex;
+    justify-content: center;
+}
+
+.row>div:hover>p {
+    display: block;
+}
+.container>ul {
+    margin-top: 40px;
+    
+}
+.ul {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 20em;
+}
+.carousel {
+    width: 640px; height: 360px;
+}
+.display-4 {
+    display: flex;
+    justify-content: center;
+}
